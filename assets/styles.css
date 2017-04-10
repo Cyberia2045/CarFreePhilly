@@ -75,7 +75,7 @@ body {
 	color:rgb(240,240,240);
 }
 
-/*----------video styling----------*/
+/*----------landing video styling----------*/
 
 #landing_video { 
   position: fixed;
@@ -167,7 +167,8 @@ body {
 
 .lora {
 	font-family: 'Lora', serif;
-	line-height:30px;}
+	line-height:30px;
+}
 
 .button {
   background-color:#64B6AC;
@@ -190,6 +191,7 @@ body {
 .Placeholder{
   margin-top:10%;
 }
+
 .minimalist {
   background-image:url("images/minimal-bike.jpeg");
   background-size:100% 100%;
@@ -208,11 +210,12 @@ body {
 	background-image: url("../assets/images/PhillyBiking.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	border:5px solid #EEEEFF;
+	border:5px solid #64B6AC;
 	border-radius: 10px;
 	margin:0 auto;
 	margin-top: 10px;
 }
+
 
 
 
