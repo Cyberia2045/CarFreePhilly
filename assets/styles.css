@@ -62,6 +62,12 @@ body {
 	font-family: "Merriweather", serif;
 }
 
+.subheader {
+	color:white;
+	text-align: center;
+	font-family: "Merriweather", serif;
+}
+
 .mission {
 	text-align: center;
 	font-size: 20px;
@@ -88,82 +94,88 @@ body {
   background-size: cover; 
 }
 
-<<<<<<< HEAD
-=======
-/*----------news styling------------*/
+/*----------get involved styling--------*/
 
+.involved_pic {
+	width:700px;
+	max-width: 95%;
+	height:400px;
+	max-height: 80%;
+	background-image: url("../assets/images/PhillyBiking.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin:0 auto;
+	margin-top: 10px;
+	border-radius: 10px;
+	border:3px solid black;
+}
 
+/*---------news styling-----------*/
 
-/*---------news image styling----------*/
-
-<<<<<<< HEAD
-  }
-#urban-design-bike{
+#urban-design-bike {
   background-image:url("images/bikes.jpg");
 }
-#car-emissions{
+#car-emissions {
   background-image:url("images/car-emissions.png");
 }
-#bike-infographic{
+
+#bike-infographic {
   background-image:url("images/infographic.jpg");
   background-repeat:repeat;
 }
-#infographic{
+
+#infographic {
   background-image:url("images/infographic.png");
   display:inline-block;
-=======
->>>>>>> 0c5c158ad05bd41fac0d14c36132f9fa4b9db757
+}
 
-}
-#bikelane{
+#bikelane {
   background-image:url("images/bikeover.jpg");
-background-size:cover;
-height:400px;
+	background-size:cover;
+	height:400px;
 }
-.image{
+
+.image {
   width:400px;
   height:250px;
   background-size:contain;
   background-repeat: no-repeat;
 }
-.image:hover{
+
+.image:hover {
   opacity:0.8;
 }
-.links{
+
+.links {
   color:white;
   text-decoration: underline;
 }
-.links:hover{
+
+.links:hover {
   color:#355691;
   text-decoration: none;
-
-<<<<<<< HEAD
 }
-.mybtn{
+
+.mybtn {
   height:50px;
   width:150px;
   margin-left:30%;
-background: #141E30;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-border:1px solid #141e30;
+	background: #141E30;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border:1px solid #141e30;
   color:white;
   font-family: 'Droid Sans', sans-serif;
   font-size:16px;
   transition:1s;
   border-radius:10px;
 }
-.mybtn:hover{
+
+.mybtn:hover {
   opacity:0.8;
   transition:1s;
 }
-/*-------------------------*/
-=======
 
-
-<<<<<<< HEAD
->>>>>>> 0c5c158ad05bd41fac0d14c36132f9fa4b9db757
-=======
 /*----------mission styling--------*/
 
 .images {
@@ -185,6 +197,4 @@ border:1px solid #141e30;
 }
 
 
->>>>>>> da7b0cfa883513407e162c9ae7081bc3cd6c65a8
 
->>>>>>> master
