@@ -5,7 +5,9 @@
 	}
 
 body {
-
+	background-color: darkgray;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .background {
@@ -67,8 +69,22 @@ body {
 	text-align: center;
 }
 
+/*----------video styling------*/
 
-
-
-
+#landing_video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url("images/Bicycle-Lane.jpg") no-repeat;
+    background-size: cover; 
+}
 
