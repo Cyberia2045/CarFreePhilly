@@ -15,17 +15,7 @@ body {
 	max-width: 80%;
 	height: 650px;
 	max-height: 100%;
-	background-color: rgba(0, 0, 0, 0.4);
-	background-size: cover; 
-	background-repeat: no-repeat;
-	margin:0 auto;
-}
-
-.header_container {
-	width:400px;
-	max-width: 70%;
-	height:40px;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.3);
 	background-size: cover; 
 	background-repeat: no-repeat;
 	margin:0 auto;
@@ -33,9 +23,8 @@ body {
 
 /*-----------navbar styles-------------*/
 
-/* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    background-color: rgba(0,0,0,0.7);
     overflow: hidden;
 }
 
@@ -59,17 +48,6 @@ body {
 .topnav a.active {
     background-color: #4CAF50;
     color: white;
-}
-
-.decor {
-  background: #6EAF8D;
-  background: -webkit-linear-gradient(left, #CDEBDB 50%, #6EAF8D 50%);
-  background: -moz-linear-gradient(left, #CDEBDB 50%, #6EAF8D 50%);
-  background: -o-linear-gradient(left, #CDEBDB 50%, #6EAF8D 50%);
-  background: linear-gradient(left, white 50%, #6EAF8D 50%);
-  background-size: 50px 25%;;
-  padding: 2px;
-  display: block;
 }
 
 /*---------main content-----------*/
