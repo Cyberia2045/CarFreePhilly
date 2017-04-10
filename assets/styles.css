@@ -11,11 +11,21 @@ body {
 }
 
 .background {
-	width: 1000px;
+	width: 800px;
 	max-width: 80%;
-	height: 800px;
+	height: 400px;
 	max-height: 100%;
-	background-color: rgba(0, 0, 0, 0.9);
+	background-color: rgba(0, 0, 0, 0.5);
+	background-size: cover; 
+	background-repeat: no-repeat;
+	margin:0 auto;
+}
+
+.header_container {
+	width:400px;
+	max-width: 70%;
+	height:40px;
+	background-color: rgba(0, 0, 0, 0.5);
 	background-size: cover; 
 	background-repeat: no-repeat;
 	margin:0 auto;
