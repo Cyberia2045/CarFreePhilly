@@ -94,91 +94,94 @@ body {
   background-size: cover; 
 }
 
-/*----------get involved styling--------*/
-
-.involved_pic {
-	width:700px;
-	max-width: 95%;
-	height:400px;
-	max-height: 80%;
-	background-image: url("../assets/images/PhillyBiking.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	margin:0 auto;
-	margin-top: 10px;
-	border-radius: 10px;
-	border:3px solid black;
+.parent{
+  display:flex;
+  flex-wrap:nowrap;
+  flex-direction:row;
+  justify-content: space-around;
+  margin-top:55px;
 }
-
-/*---------news styling-----------*/
-
-#urban-design-bike {
-  background-image:url("images/bikes.jpg");
+#item1{
+width:75%;
+padding-left:5%;
+padding-right:5%;
+text-align:justify;
 }
-#car-emissions {
-  background-image:url("images/car-emissions.png");
-}
-
-#bike-infographic {
-  background-image:url("images/infographic.jpg");
-  background-repeat:repeat;
-}
-
-#infographic {
-  background-image:url("images/infographic.png");
-  display:inline-block;
-}
-
-#bikelane {
-  background-image:url("images/bikeover.jpg");
-	background-size:cover;
-	height:400px;
-}
-
-.image {
-  width:400px;
-  height:250px;
-  background-size:contain;
-  background-repeat: no-repeat;
-}
-
-.image:hover {
+.item{
+  background-color:black;
+  border:5px solid #64B6AC;
+  border-radius:10px;
+  width:25%;
+  margin:10px;
+  text-align:center;
+  color:#EEEEFF;
   opacity:0.8;
 }
-
-.links {
-  color:white;
-  text-decoration: underline;
+.image{
+  margin:20px;
+  background-size:100% 100%;
+  height:200px;
+  border-radius:5px;
 }
-
-.links:hover {
-  color:#355691;
-  text-decoration: none;
+#image1{
+    background-image:url("images/bike-lane.jpg");
 }
+#image2{
+    background-image:url("images/bikeover.jpg");
+}
+#image3{
+    background-image:url("images/bikes.jpg");
+}
+#image4{
+    background-image:url("images/car-emissions.png");
+}
+#image5{
+    background-image:url("images/infographic.jpg");
+}
+#image6{
+    background-image:url("images/infographic.png");
+}
+.links{
+  color:#EEEEFF;
+}
+.image:hover{
+  opacity:0.8;
 
-.mybtn {
+}
+.roboto{
+font-family: 'Roboto', sans-serif;
+}
+.lora{font-family: 'Lora', serif;
+line-height:30px;}
+h2{
+  text-align:center;
+  font-size:40px;
+line-height:50px;
+}
+.button{
+  background-color:#64B6AC;
+  border:1px solid #5D737E;
   height:50px;
   width:150px;
-  margin-left:30%;
-	background: #141E30;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	border:1px solid #141e30;
-  color:white;
-  font-family: 'Droid Sans', sans-serif;
-  font-size:16px;
-  transition:1s;
-  border-radius:10px;
+  border-radius:5px;
+  text-align:center;
+  color:#EEEEFF;
+  margin-left:42.0%;
+  margin-top:3%;
+  font-size:20px;
 }
-
-.mybtn:hover {
+.button:hover{
   opacity:0.8;
-  transition:1s;
+  transition:.5s;
 }
-
-/*----------mission styling--------*/
-
-
-
-
-
+.Placeholder{
+  margin-top:10%;
+}
+.minimalist{
+  background-image:url("images/minimal-bike.jpeg");
+  background-size:100% 100%;
+  height:550px;
+  width:100%;
+  background-repeat:no-repeat;
+  border:5px solid #EEEEFF;
+}
