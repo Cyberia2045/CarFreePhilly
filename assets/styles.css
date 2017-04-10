@@ -88,3 +88,103 @@ body {
   background-size: cover; 
 }
 
+<<<<<<< HEAD
+=======
+/*----------news styling------------*/
+
+
+
+/*---------news image styling----------*/
+
+<<<<<<< HEAD
+  }
+#urban-design-bike{
+  background-image:url("images/bikes.jpg");
+}
+#car-emissions{
+  background-image:url("images/car-emissions.png");
+}
+#bike-infographic{
+  background-image:url("images/infographic.jpg");
+  background-repeat:repeat;
+}
+#infographic{
+  background-image:url("images/infographic.png");
+  display:inline-block;
+=======
+>>>>>>> 0c5c158ad05bd41fac0d14c36132f9fa4b9db757
+
+}
+#bikelane{
+  background-image:url("images/bikeover.jpg");
+background-size:cover;
+height:400px;
+}
+.image{
+  width:400px;
+  height:250px;
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+.image:hover{
+  opacity:0.8;
+}
+.links{
+  color:white;
+  text-decoration: underline;
+}
+.links:hover{
+  color:#355691;
+  text-decoration: none;
+
+<<<<<<< HEAD
+}
+.mybtn{
+  height:50px;
+  width:150px;
+  margin-left:30%;
+background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border:1px solid #141e30;
+  color:white;
+  font-family: 'Droid Sans', sans-serif;
+  font-size:16px;
+  transition:1s;
+  border-radius:10px;
+}
+.mybtn:hover{
+  opacity:0.8;
+  transition:1s;
+}
+/*-------------------------*/
+=======
+
+
+<<<<<<< HEAD
+>>>>>>> 0c5c158ad05bd41fac0d14c36132f9fa4b9db757
+=======
+/*----------mission styling--------*/
+
+.images {
+  color: white;  
+  margin-left: 10%;
+  width: 90%;
+}
+
+#left-image{
+  float: left;
+  width: 35%;
+  margin-left: 7%;
+}
+
+#right-image{
+  float: right;
+  width: ;
+  margin-right: 7%;
+}
+
+
+>>>>>>> da7b0cfa883513407e162c9ae7081bc3cd6c65a8
+
+>>>>>>> master
