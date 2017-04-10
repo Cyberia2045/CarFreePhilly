@@ -120,4 +120,25 @@ body {
 
 
 
+/*----------mission styling--------*/
+
+.images {
+  color: white;  
+  margin-left: 10%;
+  width: 90%;
+}
+
+#left-image{
+  float: left;
+  width: 35%;
+  margin-left: 7%;
+}
+
+#right-image{
+  float: right;
+  width: ;
+  margin-right: 7%;
+}
+
+
 
