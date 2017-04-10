@@ -5,7 +5,7 @@
 	}
 
 body {
-	background-color: darkgray;
+	background-color: #3F4045;
 	background-size: cover;
 	background-repeat: no-repeat;
 	font-family: 'Roboto', sans-serif;
@@ -89,7 +89,6 @@ body {
 }
 
 /*----------news styling------------*/
-
 .wrapper{
   color: white;
   margin-left:10%;
@@ -98,18 +97,58 @@ body {
 
 #left-container{
   float:left;
-  width:35%;
+
+
   margin-left:7%;
+  width:40%;
+  margin-left:5%;
+  background-color:black;
+  padding:3.5%;
+  opacity:0.8;
+
 }
 
 #right-container{
   float:right;
-  width:35%;
+  width:40%;
   margin-right:15%;
+  background-color:black;
+  padding:3.5%;
+  opacity:0.8;
 }
 
 .paragraph-header{
   text-align:center;
+  font-size:30px;
+  opacity:0.9;
+  background-color:#30292F;
+  padding-top:5%;
+  padding-bottom:5%;
 }
+.roboto-slab
+{font-family: 'Roboto Slab', serif;}
+.lora{font-family: 'Lora', serif;}
+.droid{font-family: 'Droid Sans', sans-serif;}
+.crimson{font-family: 'Crimson Text', serif;}
+.noto{font-family: 'Noto Serif', serif;}
 
+.paragraph{
+  line-height:25px;
+  font-size:16px;
+  text-align:justify;
+}
+  #news{
+    background-color:#5F5AA2;
+    width:45%;
+margin-left:30%;
+font-size:40px;
+padding:2%;
+opacity:0.8;
+
+  }
+
+
+
+
+/*-------------------------*/
 
