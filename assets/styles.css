@@ -9,7 +9,9 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	font-family: 'Roboto', sans-serif;
-
+	background: #283048;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .background {
@@ -26,30 +28,30 @@ body {
 /*-----------navbar styles-------------*/
 
 .topnav {
-    background-color: rgba(0,0,0,0.7);
-    overflow: hidden;
+  background-color: rgba(0,0,0,0.7);
+  overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+  background-color: #ddd;
+  color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #4CAF50;
-    color: white;
+  background-color: #4CAF50;
+  color: white;
 }
 
 /*---------main content-----------*/
@@ -70,38 +72,44 @@ body {
 /*----------video styling------*/
 
 #landing_video { 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url("images/cycling") no-repeat;
-    background-size: cover; 
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url("images/cycling") no-repeat;
+  background-size: cover; 
 }
 
+/*----------news styling------------*/
 
 .wrapper{
   color: white;
   margin-left:10%;
-width:90%;
+	width:90%;
 }
+
 #left-container{
   float:left;
-  width:30%;
-  margin-left:5%;
+  width:35%;
+  margin-left:7%;
 }
+
 #right-container{
   float:right;
-  width:30%;
+  width:35%;
   margin-right:15%;
 }
+
 .paragraph-header{
   text-align:center;
 }
+
+
