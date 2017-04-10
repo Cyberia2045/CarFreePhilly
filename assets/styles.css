@@ -62,6 +62,12 @@ body {
 	font-family: "Merriweather", serif;
 }
 
+.subheader {
+	color:white;
+	text-align: center;
+	font-family: "Merriweather", serif;
+}
+
 .mission {
 	text-align: center;
 	font-size: 20px;
