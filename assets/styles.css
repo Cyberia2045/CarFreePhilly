@@ -5,9 +5,11 @@
 	}
 
 body {
-	background-color: darkgray;
-	background-size: cover;
-	background-repeat: no-repeat;
+background: #2A2B2E;  /* fallback for old browsers */
+
+background-size:cover;
+
+
 }
 
 .background {
@@ -83,3 +85,22 @@ body {
     background-size: cover; 
 }
 
+
+.wrapper{
+  color: white;
+  margin-left:10%;
+width:90%;
+}
+#left-container{
+  float:left;
+  width:30%;
+  margin-left:5%;
+}
+#right-container{
+  float:right;
+  width:30%;
+  margin-right:15%;
+}
+.paragraph-header{
+  text-align:center;
+}
