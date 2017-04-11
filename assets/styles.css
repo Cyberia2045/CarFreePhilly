@@ -188,7 +188,7 @@ body {
   transition:.5s;
 }
 
-.Placeholder{
+.Placeholder {
   margin-top:10%;
 }
 
@@ -216,6 +216,43 @@ body {
 	margin-top: 10px;
 }
 
+/*--------------Our Story Styling---------------*/
+
+.saga_pic {
+	width:700px;
+	max-width: 95%;
+	height:400px;
+	background-image: url("../assets/images/PhillyTraffic.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	border:5px solid #64B6AC;
+	border-radius: 10px;
+	margin:0 auto;
+	margin-top: 10px;
+}
+
+.saga_pic2 {
+	width:700px;
+	max-width: 95%;
+	height:400px;
+	background-image: url("../assets/images/CarFreePhilly.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	border:5px solid #64B6AC;
+	border-radius: 10px;
+	margin:0 auto;
+	margin-top: 10px;
+}
+
+.mission {
+	text-align: center;
+	margin:0 auto;
+	margin-top: 10px;
+	font-size: 20px;
+	padding:10px;
+	color:rgb(240,240,240);
+	max-width: 800px;
+}
 
 
 
